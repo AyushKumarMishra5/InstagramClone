@@ -1,0 +1,84 @@
+body{
+    background-attachment: fixed;
+    background-size: cover;
+}
+.box1{
+    border: 2px solid rgb(8, 0, 0);
+    width: 350px;
+    height: 370px;
+    text-align: center;
+    left: 36%;
+    top: 2%;
+    position: absolute;
+    transform: translate(-50% -50%);
+}
+.box1:hover{
+    box-shadow: 5px 5px black;
+}
+.box1 a{
+    text-decoration: none;
+    color:rgb(122, 122, 202);
+}
+.box1 .link {
+    color: rgb(122, 122, 202);
+}
+.box1 input{
+    width: 280px;
+    height: 35px;
+    border-radius: 5px;
+    box-shadow: 2px 2px black;
+}
+.box1 input:hover{
+    width: 300px;
+    border: 2px solid white;
+}
+#edit{
+    font-weight: bold;
+    background-color: rgb(9, 5, 236);
+}
+
+.box2{
+    border: 2px solid black;
+    width: 350px;
+    height: 40px;
+    text-align: center;
+    left: 36%;
+    top: 67%;
+    position: absolute;
+    transform: translate(-50% -50%);
+}
+.box2 a{
+    text-decoration: none;
+    color: rgb(20, 8, 243);
+}
+.get{
+    width: 350px;
+    text-align: center;
+    left: 36%;
+    top: 76%;
+    position: absolute;
+    transform: translate(-50% -50%);
+}
+.app{
+    /* border: 2px solid black; */
+    width: 350px;
+    left: 36%;
+    top: 84%;
+    position: absolute;
+    transform: translate(-50% -50%);
+    text-align: center;
+}
+.app img{
+    width: 150px;
+    height: 50px;
+}
+.face{
+    left: 42.7%;
+    top: 52.3%;
+    position: absolute;
+    transform: translate(-50% -50%);
+}
+.face img{
+    width: 18px;
+    height: 18px;
+}
